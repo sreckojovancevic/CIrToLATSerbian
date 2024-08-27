@@ -1,0 +1,12 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="MyCustomTab" label="My Custom Tab">
+        <group id="MyGroup" label="My Custom Group">
+          <button id="button1" label="To Cyrillic" onAction="Button1_Click" />
+          <button id="button2" label="To Latin" onAction="Button2_Click" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
